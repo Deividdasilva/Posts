@@ -1,0 +1,39 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+}
+
+.lista-postagens{
+  margin: 15px;
+}
+
+.lista-postagens article{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFF;
+  margin: 15px;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.lista-postagens strong{
+  padding-bottom: 15px;
+  font-size: 20px;
+}
+
+.lista-postagens article a{
+  text-decoration: none;
+  color: #FFF;
+  background-color: brown;
+  font-size: 18px;
+  width: 40%;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+}
